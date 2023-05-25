@@ -1,0 +1,14 @@
+<p-table [value]="transacciones" class="p-datatable-sm" >
+  <ng-template pTemplate="header">
+      <tr>
+          <th>Fecha</th>
+          <th>Monto</th>
+      </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-product>
+      <tr>
+          <td>{{ product.fecha | date: 'yyyy/MM/dd' }}</td>
+          <td>{{ product.monto }}</td>
+      </tr>
+  </ng-template>
+</p-table>

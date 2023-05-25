@@ -1,0 +1,15 @@
+<div class="bg-warning-subtle p-3 rounded mt-3">
+  <h1>Bienvenido</h1>
+  <p class="h5">{{mensaje}}</p>
+</div>
+
+<div *ngIf="data">
+  <p class="h5 m-4 text-start">Monto disponible : {{data.monto}}</p>
+  <div class="d-flex justify-content-between">
+    <app-ultimas-transacciones class="flex-grow-1 me-3" [transacciones]="data.transaciones"></app-ultimas-transacciones>
+    <app-btn-cash-withdrawal (enviar)="CleanData($event)"></app-btn-cash-withdrawal>
+  </div>
+</div>
+<div class="d-flex justify-content-center mt-5">
+  <button type="button" class="btn btn-lg" (click)="Transaccion()" [ngClass]="inTransaction ? 'btn-warning' : 'btn-success'">{{labelBtn}}</button>
+</div>
