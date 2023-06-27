@@ -1,4 +1,4 @@
-https://app.travis-ci.com/oscar-polo-leon/angular-cajero-virtual.svg?branch=master
+![Build Status](https://app.travis-ci.com/oscar-polo-leon/angular-cajero-virtual.svg?branch=master)
 
 # AngularCajeroVirtual
 
