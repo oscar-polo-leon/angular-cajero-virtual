@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "16"
+  - "11.0"
 branches:
   only:
     - master
