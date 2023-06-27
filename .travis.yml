@@ -7,7 +7,7 @@ branches:
   only:
   - master
 before_script:
-  - npm install -g @angular/cli
+  - npm install --force -g @angular/cli
 script:
 - ng lint
 - ng build --prod --base-href https://github.com/oscar-polo-leon/angular-cajero-virtual.git
