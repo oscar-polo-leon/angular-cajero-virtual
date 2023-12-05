@@ -1,6 +1,6 @@
-![Build Status](https://app.travis-ci.com/oscar-polo-leon/angular-cajero-virtual.svg?branch=master)
+![Build Status](https://app.travis-ci.com/danielacatano/sistemabancario-app.svg?branch=master)
 
-# AngularCajeroVirtual
+# sistemabancario-app
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
 
